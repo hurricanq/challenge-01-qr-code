@@ -1,0 +1,40 @@
+body {
+    background: #D5E1EF;
+    font-family: "Outfit", sans-serif;
+
+    /* Center the div horizontally and vertically (responsive) */
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    max-width: 20rem; /* 320px = 20rem * 16px/rem */
+    background: #FFF;
+    border-radius: 1.25rem;
+    padding: 1rem 1rem 2.5rem;
+}
+
+.card img {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 0.625rem;
+    margin-bottom: 1.5rem;
+}
+
+.card__content {
+    padding: 0 1rem 0;
+    text-align: center;
+}
+
+.content__title {
+    font-size: 1.375rem;
+    line-height: 1.20;
+    color: #1F314F;
+}
+
+.content__desc {
+    font-size: 0.938rem;
+    line-height: 1.40;
+    color: #6877BD;
+    letter-spacing: 0.013rem;
+}
